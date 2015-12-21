@@ -1,0 +1,11 @@
+{
+    "license": "MPL-2.0",
+    "name": "nocookie",
+    "title": "No Cookie",
+    "contributors": [],
+    "author": "Olaf Dietsche",
+    "keywords": ["cookie"],
+    "description": "Set cookie permissions.",
+    "id": "nocookie@firefox-addons.olafdietsche.de",
+    "version": "0.20151221"
+}

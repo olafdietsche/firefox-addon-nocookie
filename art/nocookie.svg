@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:svg="http://www.w3.org/2000/svg"
+     version="1.1"
+     width="864" height="864">
+    <circle cx="432" cy="432" r="350" stroke="firebrick" stroke-width="100" fill="#E0C070"/>
+    <line x1="100" y1="764" x2="764" y2="100"
+          stroke="firebrick" stroke-linecap="round" stroke-width="100"/>
+    <!--<line x1="200" y1="664" x2="664" y2="200"
+          stroke="firebrick" stroke-linecap="round" stroke-width="100"/>-->
+</svg>

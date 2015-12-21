@@ -1,0 +1,41 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+        <style>
+        html body {
+            margin: 0;
+            padding: 0;
+        }
+        ul#menu {
+            display: inline-block;
+            margin: 2;
+            padding-left: 0;
+        }
+        #menu li {
+            padding-right: 5;
+            padding-bottom: 4;
+            list-style-type: none;
+        }
+        #menu li:hover {
+            background-color: lightgrey;
+        }
+        #menu li label {
+            display: list-item;
+        }
+        #menu .menu-entry {
+            cursor: default;
+            margin-left: 5;
+        }
+        </style>
+    </head>
+    <body>
+        <ul id="menu">
+            <li id="li-default"><label><input type="radio" id="cookie-default" name="permission"><span data-l10n-id="cookie-default-id"></span></label></li>
+            <li><label><input type="radio" id="cookie-allow" name="permission"><span data-l10n-id="cookie-allow-id"></span></label></li>
+            <li><label><input type="radio" id="cookie-session" name="permission"><span data-l10n-id="cookie-session-id"></span></label></li>
+            <li><label><input type="radio" id="cookie-deny" name="permission"><span data-l10n-id="cookie-deny-id"></span></label></li>
+            <hr>
+            <li><span id="open-settings-privacy" class="menu-entry" data-l10n-id="open-settings-privacy"></span></li>
+        </ul>
+    </body>
+</html>
