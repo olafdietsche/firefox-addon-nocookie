@@ -1,0 +1,15 @@
+Source: xul-ext-nocookie
+Section: web
+Priority: optional
+Maintainer: Olaf Dietsche <olafdietsche@users.noreply.github.com>
+Build-Depends: cdbs, debhelper (>= 9), mozilla-devscripts (>= 0.36)
+Standards-Version: 3.9.2
+Homepage: https://github.com/olafdietsche/firefox-addon-nocookie
+
+Package: xul-ext-nocookie
+Architecture: all
+Depends: ${misc:Depends}, ${xpi:Depends}
+Recommends: ${xpi:Recommends}
+Provides: ${xpi:Provides}
+Enhances: ${xpi:Enhances}
+Description: NoCookie is a Firefox addon for managing cookies
