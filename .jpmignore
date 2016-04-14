@@ -1,0 +1,9 @@
+.git/
+.gitignore
+.jpmignore
+art/
+debian/
+LICENSE
+*~
+*.xpi
+*.md
